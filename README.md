@@ -89,8 +89,7 @@ The final architecture reflects a **heterogeneous deployment**:
 
 ---
 ## 📁 Repository Structure
-
-
+'''
 scripts/
 ├─ lstm_pipeline/
 │ ├─ sitting_standing_onnx.py
@@ -109,6 +108,7 @@ artifacts/
 ├─ onnx/
 ├─ quant/
 └─ xmodel/
+'''
 
 
 
