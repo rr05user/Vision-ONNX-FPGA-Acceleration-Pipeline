@@ -88,28 +88,8 @@ The final architecture reflects a **heterogeneous deployment**:
 > INT8 on CPU may not be faster; the benefit is realized on FPGA/DPU hardware.
 
 ---
-
 ## 📁 Repository Structure
 
-scripts/
-├─ lstm_pipeline/
-│ ├─ sitting_standing_onnx.py
-│ ├─ step2a_run_one_sample.py
-│ ├─ step2b_benchmark_calib_batch.py
-│ ├─ step2c_compare_tf_vs_onnx.py
-│ └─ step4a_fp32_vs_int8_compare.py
-│
-├─ yolov8_pipeline/
-│ ├─ step6b_export_yolo_to_onnx.py
-│ ├─ step6c_inspect_yolo_onnx_ops.py
-│ ├─ step6d_quantize_yolo_int8.py
-│ └─ step6f_compile_vitis.sh
-│
-artifacts/
-├─ onnx/
-├─ quant/
-└─ xmodel/
 
-samples/
 
 
